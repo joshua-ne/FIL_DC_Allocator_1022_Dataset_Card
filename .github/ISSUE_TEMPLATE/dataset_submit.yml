@@ -33,7 +33,7 @@ body:
     validations:
       required: true
   
-- type: input
+  - type: input
     id: 
     attributes:
       label: DataSet Name
@@ -41,15 +41,15 @@ body:
       placeholder: 
     validations:
       required: true
-
-- type: textarea
-  attributes:
-    label: Brief description of the dataset
-    render: text
-  validations:
-    required: false
-
-- type: input
+  
+  - type: textarea
+    attributes:
+      label: Brief description of the dataset
+      render: text
+    validations:
+      required: false
+  
+  - type: input
     id: 
     attributes:
       label: DataSet Size
@@ -57,9 +57,9 @@ body:
       placeholder: 
     validations:
       required: true
-
-
-- type: input
+  
+  
+  - type: input
     id: 
     attributes:
       label: DataSet Version
@@ -67,8 +67,8 @@ body:
       placeholder: 
     validations:
       required: false
-
-- type: input
+  
+  - type: input
     id: 
     attributes:
       label: DataSet Owner
