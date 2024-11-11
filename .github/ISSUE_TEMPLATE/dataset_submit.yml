@@ -39,3 +39,20 @@ body:
       placeholder:
     validations:
       required: true
+
+
+  - type: textarea
+    attributes:
+      label: Brief description of the dataset
+      render: text
+    validations:
+      required: false
+
+  - type: input
+    id:
+    attributes:
+      label: DataSet Size
+      description:
+      placeholder:
+    validations:
+      required: true
