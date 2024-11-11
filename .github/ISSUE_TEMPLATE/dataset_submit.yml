@@ -1,0 +1,103 @@
+name: FIL_DC_Allocator_1022_Dataset_Card
+description: Dataset Card for data onboarded by clients through allocator_1022
+title: "[Dataset_Card]: <Dataset Name>"
+labels: []
+assignees: joshua-ne
+body:
+  - type: markdown
+    attributes:
+      value: 
+        Thanks for taking the time to fill out this form!
+  - type: input
+    id: 
+    attributes: 
+      label: Client Name
+      description: What is your name?
+      placeholder:
+    validations:
+      required: true
+  - type: input
+    id:  
+    attributes:
+      label: Client Organization
+      description: What organization are you affiliated with?
+      placeholder:  
+    validations:
+      required: true
+  - type: input
+    id: 
+    attributes:
+      label: Client Application Issue URL
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  
+- type: input
+    id: 
+    attributes:
+      label: DataSet Name
+      description: 
+      placeholder: 
+    validations:
+      required: true
+
+- type: textarea
+  attributes:
+    label: Brief description of the dataset
+    render: text
+  validations:
+    required: false
+
+- type: input
+    id: 
+    attributes:
+      label: DataSet Size
+      description: 
+      placeholder: 
+    validations:
+      required: true
+
+
+- type: input
+    id: 
+    attributes:
+      label: DataSet Version
+      description: 
+      placeholder: 
+    validations:
+      required: false
+
+- type: input
+    id: 
+    attributes:
+      label: DataSet Owner
+      description: 
+      placeholder: 
+    validations:
+      required: true
+
+  - type: input
+    id: 
+    attributes:
+      label: DataSet Size
+      description: 
+      placeholder: 
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Brief description of the dataset
+      render: text
+    validations:
+      required: false
+
+  - type: input
+    id: 
+    attributes:
+      label: Contact Info
+      description: How may data user contact you?
+      placeholder: 
+    validations:
+      required: true
