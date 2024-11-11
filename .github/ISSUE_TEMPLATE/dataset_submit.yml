@@ -4,11 +4,6 @@ title: "[Dataset_Card]: <Dataset Name>"
 labels: []
 assignees: joshua-ne
 body:
-  - type: markdown
-    attributes:
-      value:
-        Thanks for taking the time to fill out this form!
-
   - type: input
     id:
     attributes:
