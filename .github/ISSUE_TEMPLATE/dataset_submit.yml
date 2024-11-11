@@ -40,7 +40,6 @@ body:
     validations:
       required: true
 
-
   - type: textarea
     attributes:
       label: Brief description of the dataset
@@ -53,6 +52,34 @@ body:
     attributes:
       label: DataSet Size
       description:
+      placeholder:
+    validations:
+      required: true
+
+
+  - type: input
+    id:
+    attributes:
+      label: DataSet Version
+      description:
+      placeholder:
+    validations:
+      required: false
+
+  - type: input
+    id:
+    attributes:
+      label: DataSet Owner
+      description:
+      placeholder:
+    validations:
+      required: true
+
+  - type: input
+    id:
+    attributes:
+      label: Contact Info
+      description: How may data user contact you?
       placeholder:
     validations:
       required: true
