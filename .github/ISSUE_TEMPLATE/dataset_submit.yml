@@ -102,8 +102,4 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
-    attributes:
-      label: DataCid Upload 
-      options:
-        - label: "By checking this, I promise that I will upload the DataCids of this dataset BEFORE or AFTER data onboarding with SPs"
+  
