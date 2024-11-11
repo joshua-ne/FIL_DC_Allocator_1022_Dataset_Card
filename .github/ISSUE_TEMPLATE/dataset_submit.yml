@@ -86,8 +86,7 @@ body:
 
   - type: checkboxes
     attributes:
-      required: true
       label: DataCid Upload 
       options:
         - label: "By checking this, I promise that I will upload the DataCids of this dataset BEFORE or AFTER data onboarding with SPs"
-      
+        - required: true
